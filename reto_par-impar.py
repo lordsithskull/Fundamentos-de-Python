@@ -5,3 +5,4 @@ if residuo == 0:
   print(f'El numero {numero} es par')
 elif residuo == 1:
   print(f'El numero {numero} es impar')
+  

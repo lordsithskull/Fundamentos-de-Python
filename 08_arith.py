@@ -3,7 +3,7 @@ print(10 - 5)
 print(10 * 2)
 print(10 / 2)
 print(10 % 2)   # Se captura el residuo y se descarta el residuo
-print(10 % 3)   # Se captura el residuo y se descarta el residuo
+print(10 % 3)   # Se captura el residuo y se descarta el entero
 print(10 // 3)  # Se captura el numero entero y se descarta el residuo
 print (2 ** 3)  #numero con exponente
 
