@@ -9,8 +9,8 @@ print("15/3 = ", 15/3)
 #Esto es un comentario
 '''
 
-user_option_input = input('Piedra, papel o tijeras => ')
-user_option = user_option_input.lower()
+user_option = input('Piedra, papel o tijeras => ')
+user_option = user_option.lower()
 computer_option = 'papel'
 
 if user_option == computer_option:
