@@ -5,7 +5,7 @@ person = {
   'age' :  99
 }
 
-print (person)
+print ('\n', person, '\n')
 
 person['name'] = 'Mike'
 person['edad'] = '35'
