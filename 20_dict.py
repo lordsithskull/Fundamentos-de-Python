@@ -8,5 +8,19 @@ person = {
 print ('\n', person, '\n')
 
 person['name'] = 'Mike'
-person['edad'] = '35'
-print(person)
+person['age'] -= 64
+person['langs'].append('CSharp')
+print ('\n', person, '\n')
+
+#formas de eliminar informacion del diccionario
+del person['last_name']
+person.pop('age')
+
+print ('\n Items')
+print (person.items(), '\n')
+
+print ('\n Keys')
+print (person.keys(), '\n')
+
+print ('\n Values')
+print (person.values(), '\n')
